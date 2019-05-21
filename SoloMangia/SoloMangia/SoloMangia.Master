@@ -7,9 +7,47 @@
     <link rel="stylesheet" type="text/css" href="my.css">  
 </head>  
 <body>  
-<header id="header">  
-<h1>c# corner</h1>  
-</header>  
+    <link rel="stylesheet" href="css/je-7424f79878.min.css">
+<header class="header">
+
+    <div class="header-wrap l-container">
+        <div class="logo">
+    <a href="/">
+        <img alt="" src="https://d3fpaxu9zxkgws.cloudfront.net/assets/dist/img/logos/je-logo-v3.svg" width="152" height="30">
+            <h1 class="is-visuallyHidden">Just Eat</h1>
+    </a>
+</div>
+
+
+        
+
+
+<nav data-navglobal class="nav nav--global">
+    <label data-navglobal-toggle class="nav-toggle " for="menu-visible" role="button" aria-pressed="false" aria-label="Navigation visibility toggle" tabindex="0">
+        <span class="nav-toggle-icon" title="Menu">Open Menu</span>
+    </label>
+    <input type="checkbox" class="nav-trigger" name="menuVisible" id="menu-visible" aria-hidden="true">
+    <div class="nav-container">
+        <ul class="nav-list">
+                    <li class="nav-list-item" data-test-id="login">
+                        <a class="nav-list-link" data-gtm="header|click - navigation|login" href="/account/login/?returnurl=%2F" rel="nofollow">Accedi</a>
+                    </li>
+                    <li class="nav-list-item" data-test-id="signup">
+                        <a class="nav-list-link" data-gtm="header|click - navigation|register" href="/account/register/?returnurl=%2F">Registrati</a>
+                    </li>
+
+            
+
+            <li class="nav-list-item nav-list-item--support" data-test-id="support">
+                <a href="/help" data-gtm='header|click - navigation|help' class="nav-list-link">Aiuto?</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    </div>
+</header>
+  
 <nav id="nav">  
     <ul>  
         <li><a href="home.aspx">Home</a></li>  
